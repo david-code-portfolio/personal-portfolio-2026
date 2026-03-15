@@ -1,7 +1,9 @@
-import HeroSection from "./components/HeroSection"
+import Navbar from "./components/layout/Navbar"
+import HeroSection from "./components/layout/HeroSection"
 
 function App(){
   return <>
+    <Navbar></Navbar>
     <HeroSection></HeroSection>
   </>
 }

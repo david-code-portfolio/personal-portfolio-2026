@@ -17,6 +17,7 @@
     --text-heading: 4rem;
     --text-subheading: 2.5rem;
     --text-body: 1.25rem;
+    --text-button: 1rem;
 
     /* Font line hights */
     --leading-tight: 0.8;
@@ -40,4 +41,8 @@
 
 body{
     @apply bg-bg text-main;
+}
+
+a{
+    @apply font-heading font-bold text-button leading-tight text-muted hover:text-main duration-250;
 }
