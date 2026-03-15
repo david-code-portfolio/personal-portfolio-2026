@@ -15,13 +15,16 @@
     /* Font sizes */
     --text-display: 8rem;
     --text-heading: 4rem;
-    --text-subheading: 2rem;
-    --text-body: 1rem;
+    --text-subheading: 2.5rem;
+    --text-body: 1.25rem;
 
     /* Font line hights */
     --leading-tight: 0.8;
     --leading-medium: 1;
     --leading-loose: 1.5;
+
+    /* Letter spacing */
+    --tracking-tighter: -0.05em; /* Tighter letter spacing for headings */
 
     /* Spacing */
     --spacing-section: 8rem; /* Gap between sections */
