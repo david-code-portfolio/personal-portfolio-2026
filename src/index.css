@@ -1,1 +1,40 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@theme{
+    /* Colors */
+    --color-bg: rgb(243, 241, 247);
+    --color-bg-surface: rgb(225, 222, 229);
+    --color-main: rgb(24, 24, 29);
+    --color-muted: rgb(133, 132, 137);
+    --color-accent: rgb(57, 142, 227);
+
+    /* Fonts */
+    --font-heading: 'Maven Pro', sans-serif;
+    --font-text: 'Instrument Sans', sans-serif;
+
+    /* Font sizes */
+    --text-display: 8rem;
+    --text-heading: 4rem;
+    --text-subheading: 2rem;
+    --text-body: 1rem;
+
+    /* Font line hights */
+    --leading-tight: 0.8;
+    --leading-medium: 1;
+    --leading-loose: 1.5;
+
+    /* Spacing */
+    --spacing-section: 8rem; /* Gap between sections */
+    --spacing-block: 4rem; /* Gap between elements withing a section */
+    --spacing-element: 2rem; /* Gap between small elements */
+    --spacing-inner: 1rem; /* Padding inside elements */
+
+    /* Border radius */
+    --radius-lg: 2rem;
+    --radius-md: 1rem;
+    --radius-sm: 0.5rem;
+}
+
+body{
+    @apply bg-bg text-main;
+}
