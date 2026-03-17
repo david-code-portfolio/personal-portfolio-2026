@@ -1,5 +1,5 @@
 import ModeSwitchBtn from "../ui/modeSwitchBtn"
-import Button from "../ui/button"
+import PrimaryBtn from "../ui/primaryBtn"
 
 function Navbar(){
     return(
@@ -11,7 +11,7 @@ function Navbar(){
                 <a href="#">Skills</a>
                 <a href="#">Process</a>
             </div>
-            <Button customStyle="max-sm:hidden"></Button>
+            <PrimaryBtn customStyle="max-sm:hidden" btnText={"Contact"}/>
             {/* Hamburger menu (visible on mobile view) */}
             <button className="relative w-6 h-4 cursor-pointer min-sm:hidden">
                 <div className="w-full h-1 bg-main rounded-lg absolute top-0"></div>
