@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
+@layer base{
+    .dark{
+        /* Colors */
+        --color-bg: rgb(24, 24, 29);
+        --color-bg-surface: rgb(42, 43, 47);
+        --color-main: rgb(243, 241, 247);
+        --color-muted: rgb(134, 133, 139);
+        --color-accent: rgb(57, 142, 227);
+    }
+}
+
 @theme{
     /* Colors */
     --color-bg: rgb(243, 241, 247);
