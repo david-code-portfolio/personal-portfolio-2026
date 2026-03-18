@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 
 import DarkModeIcon from '../../assets/svgs/dark-mode-icon.svg?react'
 import LightModeIcon from '../../assets/svgs/light-mode-icon.svg?react'
-import { div } from 'framer-motion/client'
 
 function ModeSwitchBtn() {
     const [theme, setTheme] = useState(() => {

@@ -55,7 +55,3 @@
 body{
     @apply bg-bg text-main;
 }
-
-a{
-    @apply font-heading font-bold text-button leading-tight text-muted hover:text-main duration-250;
-}
