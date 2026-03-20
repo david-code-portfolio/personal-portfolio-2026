@@ -22,9 +22,9 @@ function ModeSwitchBtn() {
     
     return(
         <div className='w-6 h-6 flex items-center justify-center'>
-            <DarkModeIcon 
+            <DarkModeIcon
                 className={`${theme === true ? `hidden` : ``} cursor-pointer`}
-                onClick={() => setTheme(theme => !theme)}    
+                onClick={() => setTheme(theme => !theme)}
             />
             <LightModeIcon
                 className={`${theme === true ? `` : `hidden`} cursor-pointer`}

@@ -12,17 +12,17 @@ function Navbar(){
 
     return(
         <motion.nav 
-            className={`fixed top-8 left-1/2 overflow-hidden -translate-x-1/2 bg-bg-surface pl-8 pr-2 py-2 max-sm:py-4 max-sm:px-6 rounded-lg max-sm:min-w-[100px] max-sm:w-4/5`}
-            animate={isOpen === true ? {height: 'auto'} : {height: 56}}>
+            className={`fixed top-8 left-1/2 overflow-hidden -translate-x-1/2 bg-bg-surface pl-8 pr-2 py-2 max-sm:py-4 max-sm:px-6 rounded-lg max-sm:min-w-[100px] max-sm:w-4/5 max-sm:h-14`}
+            animate={isOpen === true ? {height: 'auto'} : ''}>
             <div className="flex justify-between gap-8 items-center">
                 <ModeSwitchBtn></ModeSwitchBtn>
 
                 {/* Wide screen navigation */}
-                <div className="flex gap-8 max-sm:hidden font-heading font-bold text-button leading-tight text-muted hover:text-main duration-250">
-                    <a href='#'>Home</a>
-                    <a href="#">Work</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Process</a>
+                <div className="flex gap-8 max-sm:hidden font-heading font-bold text-button leading-tight text-muted">
+                    <a href='#' className="hover:text-main duration-250">Home</a>
+                    <a href="#" className="hover:text-main duration-250">Work</a>
+                    <a href="#" className="hover:text-main duration-250">Skills</a>
+                    <a href="#" className="hover:text-main duration-250">Process</a>
                 </div>
 
                 <Button customStyle="max-sm:hidden" btnText={"Contact"}/>
